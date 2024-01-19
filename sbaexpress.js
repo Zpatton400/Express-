@@ -125,7 +125,7 @@ app.listen(port, () => {
 
 
 /*Add to README file The server application created is a simple digital library where users can add books with a title, description, and cover image. It uses Node.js and Express.js to create a RESTful API that supports CRUD operations (Create, Read, Update, Delete) on the books data.
-The application starts by initializing an Express server and setting up necessary middleware. Two custom middleware functions are created: one for logging requests and another for parsing JSON bodies from incoming requests. These middleware functions are then used in the application.
+The application starts by initializing an Express server and setting up the necessary middleware. Two custom middleware functions are created: one for logging requests and another for parsing JSON bodies from incoming requests. These middleware functions are then used in the application.
 The application uses a template engine to render views. In this case, Pug is used. The application has a single view for displaying the list of books. The view is rendered using the `res.render` function, passing in the name of the view and the data to be displayed.
 The application supports four types of HTTP requests: GET, POST, PATCH, and DELETE. The GET request is used to retrieve the list of books. The POST request is used to add a new book to the list. The PATCH request is used to update the details of an existing book. The DELETE request is used to remove a book from the list.
 The application also supports query parameters for data filtering. When retrieving the list of books, a `search` query parameter can be included in the request. The application will then filter the list of books based on the search term.
