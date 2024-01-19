@@ -7,6 +7,7 @@
 // What would you add to or change about your application if given more time?
 // If given more time, I would add user authentication, the ability to edit and delete comments, and a more sophisticated search feature that includes filtering by multiple criteria. I would also add more robust error handling and validation for the API endpoints.
 // Route to render the books view
+
 app.get('/view/books', (req, res) => {
   res.render('books', { books });
 });
